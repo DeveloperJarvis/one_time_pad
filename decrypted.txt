@@ -1,0 +1,2 @@
+This is a Secret file. You cannot read it without key.
+If you ever read this then you are aware of the secret.
