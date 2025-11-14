@@ -24,7 +24,7 @@ gcc -g -Wall -Wextra -o decrypt.out decrypt.c
 
 ```bash
 ./encrypt.out secret.txt
-./decrypt.out crypt.out key.out
+./decrypt.out crypt.bin key.bin
 ```
 
 ## For Windows:
@@ -60,7 +60,7 @@ clang decrypt.o -o decrypt_x64.exe
 # encrypting
 encrypt_x64.exe secret.txt
 # decrypting
-decrypt_x64.exe crypt.out key.out
+decrypt_x64.exe crypt.bin key.bin
 ```
 
 ## Creating tag
